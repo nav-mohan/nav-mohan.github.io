@@ -1,0 +1,27 @@
+{
+    "posts":[
+        {
+            "title":"COVID and Poverty in Toronto",
+            "link":"https://nav-mohan.github.io/Covid-Poverty/",
+            "img":"covid-poverty.jpg"
+        }
+        ,
+        {
+            "title":"Sunshiners in Ontario University & Colleges",
+            "img":"ontario-sunshine.jpg",
+            "link":"https://nav-mohan.github.io/sunshine/"
+        }
+        ,
+        {
+            "title":"A Data-Dig of London's Music Scene",
+            "img":"london-spotify.jpg",
+            "link":"https://nav-mohan.github.io/London-Spotify/"
+        }
+        ,
+        {
+            "title":"Vaccine Exemptions in Toronto Schools",
+            "img":"vax-ex.jpg",
+            "link":"https://nav-mohan.github.io/TO_Covid_Schools"
+        }
+    ]
+}
