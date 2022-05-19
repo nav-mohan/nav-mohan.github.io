@@ -22,9 +22,9 @@ const loadData = function(){
             post_anchor.href = post['link']
             post_anchor.innerText = post['title']
 
+            post_div.appendChild(post_anchor)
             post_div.appendChild(post_img)
             post_div.appendChild(post_desc)
-            post_div.appendChild(post_anchor)
 
             post_div.classList.add('post');
             posts.appendChild(post_div)
