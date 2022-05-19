@@ -3,25 +3,29 @@
         {
             "title":"COVID and Poverty in Toronto",
             "link":"https://nav-mohan.github.io/Covid-Poverty/",
-            "img":"covid-poverty.jpg"
+            "img":"covid-poverty.jpg",
+            "desc":"An interactive map of COVID cases vs average income across Toronto neighbourhoods."
         }
         ,
         {
-            "title":"Sunshiners in Ontario University & Colleges",
+            "title":"Sunshine List of Ontario University & Colleges",
             "img":"ontario-sunshine.jpg",
-            "link":"https://nav-mohan.github.io/sunshine/"
+            "link":"https://nav-mohan.github.io/sunshine/",
+            "desc":"A dashboard to visualize trends in the annual Sunshine list across Ontario's Universities and Colleges. Built with React.JS."
         }
         ,
         {
             "title":"A Data-Dig of London's Music Scene",
             "img":"london-spotify.jpg",
-            "link":"https://nav-mohan.github.io/London-Spotify/"
+            "link":"https://nav-mohan.github.io/London-Spotify/",
+            "desc":"Visualizing London, Ontario's music scene using data collected from the Spotify API."
         }
         ,
         {
             "title":"Vaccine Exemptions in Toronto Schools",
             "img":"vax-ex.jpg",
-            "link":"https://nav-mohan.github.io/TO_Covid_Schools"
+            "link":"https://nav-mohan.github.io/TO_Covid_Schools",
+            "desc":"A scatter plot of the number of vaccine exemptions in Toronto's public schools in the backdrop of COVID cases per neighbourhood."
         }
     ]
 }
