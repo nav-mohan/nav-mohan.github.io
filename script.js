@@ -1,5 +1,14 @@
-posts = document.getElementById("posts");
 
+const prepareAudio = function(){
+    speakerIcon = document.getElementById('speaker-icon');
+    audioBox = document.getElementById('audio-box');
+    speakerIcon.addEventListener('click',function(){
+        audioBox.play();
+    })
+}
+
+
+posts = document.getElementById("posts");
 const loadData = function(){
     fetch('posts.json')
     .then(function(res){
@@ -34,3 +43,4 @@ const loadData = function(){
 }
 
 window.addEventListener('load',loadData);
+window.addEventListener('load',prepareAudio);
