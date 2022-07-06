@@ -21,6 +21,13 @@
             "desc":"Visualizing London, Ontario's music scene using data collected from the Spotify API."
         }
         ,
+
+	{
+	    "title": "Sorting Algorithms",
+	    "img":"react_sort_viz.gif",
+	    "link":"https://nav-mohan.github.io/sorting-visualizer/",
+	    "desc":"Just brushing up on my algorithms. Built with React.JS"
+	},
         {
             "title":"Vaccine Exemptions in Toronto Schools",
             "img":"vax-ex.jpg",
