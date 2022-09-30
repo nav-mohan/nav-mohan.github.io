@@ -15,6 +15,12 @@
         }
         ,
         {
+            "title":"A Preliminary Analysis of York's COVID cases",
+            "img":"york-covid.jpg",
+            "link":"https://nav-mohan.github.io/YorkCovid_Dashboard/",
+            "desc":"A initial draft of a possible longer project in comparing York Region's COVID prevalence against demographic features"
+        },
+        {
             "title":"A Data-Dig of London's Music Scene",
             "img":"london-spotify.jpg",
             "link":"https://nav-mohan.github.io/London-Spotify/",
