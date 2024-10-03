@@ -18,22 +18,49 @@
             "title":"A Preliminary Analysis of Toronto's COVID cases",
             "img":"toronto-covid.png",
             "link":"https://nav-mohan.github.io/TorontoCovid_PrelimAnalysis/",
-            "desc":"A initial draft of a possible longer project in comparing Toronto's COVID prevalence against demographic features"
+            "desc":"A draft for Canadian Association of Journalists on COVID prevalence among minority groups"
         },
         {
             "title":"A Data-Dig of London's Music Scene",
             "img":"london-spotify.jpg",
             "link":"https://nav-mohan.github.io/London-Spotify/",
             "desc":"Visualizing London, Ontario's music scene using data collected from the Spotify API."
-        }
-        ,
+        },
+        {
+            "title": "CoVizu",
+            "img":"covizu.png",
+            "link":"https://filogeneti.ca/covizu/",
+            "desc":"Near real-time visualization of SARS-CoV-2 (hCoV-19) genomic variation with GISAID data"
+        },
 
-	{
-	    "title": "Sorting Algorithms",
-	    "img":"react_sort_viz.gif",
-	    "link":"https://nav-mohan.github.io/sorting-visualizer/",
-	    "desc":"Just brushing up on my algorithms. Built with React.JS"
-	},
+        {
+            "title": "MacIceCast",
+            "img":"macos-terminal-1.png",
+            "link":"https://github.com/MacIcecast",
+            "desc":"A MacOS terminal app for encoding input audio as MP3 or AAC stream to an IceCast server. Built with C++ and Objective-C"
+        },
+
+
+        {
+            "title": "MacCapster",
+            "img":"macos-terminal-2.png",
+            "link":"https://github.com/maccapster",
+            "desc":"A MacOS terminal app for recieving real-time alerts. Compliant with Common Alerting Protocol (Canadian Profile). Built with C++ and Objective-C"
+        },
+
+        {
+            "title": "ZettaListener",
+            "img":"terminal.png",
+            "link":"https://github.com/ZettaListener",
+            "desc":"A Debian terminal app for recieving real-time updates from RCS Zetta with persistent storage and web-server. Built with C++"
+        },
+
+        {
+            "title": "Sorting Algorithms",
+            "img":"react_sort_viz.gif",
+            "link":"https://nav-mohan.github.io/sorting-visualizer/",
+            "desc":"Just brushing up on my algorithms. Built with React.JS"
+        },
         {
             "title":"Vaccine Exemptions in Toronto Schools",
             "img":"vax-ex.jpg",
