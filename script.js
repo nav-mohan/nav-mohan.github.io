@@ -21,22 +21,31 @@ const loadData = function(){
     .then(function(post_details){
         for (let i = 0; i < post_details['posts'].length; i++) {
             const post = post_details['posts'][i];
-            post_div = document.createElement('div');
-            post_desc = document.createElement('div');
-            post_desc.innerHTML = '<h3>' + post['desc'] + '</h3>';
-            post_desc.classList.add('description');
+            post_box = document.createElement('div');
+            post_box.classList.add('post');
+            
+            post_img_box = document.createElement('div');
+            post_img_box.classList.add("post-img");
             post_img = document.createElement('img');
-            post_img.src = post['img']
+            post_img.src = post['img'];
+            post_img_box.appendChild(post_img);
+
+            post_anchor_box = document.createElement('div');
+            post_anchor_box.classList.add('post-anchor');
             post_anchor = document.createElement('a');
             post_anchor.href = post['link']
-            post_anchor.innerText = post['title']
+            post_anchor.innerText = post['title'];
+            post_anchor_box.appendChild(post_anchor);
 
-            post_div.appendChild(post_anchor)
-            post_div.appendChild(post_img)
-            post_div.appendChild(post_desc)
+            post_desc_box = document.createElement('div');
+            post_desc_box.classList.add('post-desc');
+            post_desc_box.innerText = post['desc'];
 
-            post_div.classList.add('post');
-            posts.appendChild(post_div)
+            post_box.appendChild(post_img_box);
+            post_box.appendChild(post_anchor_box);
+            post_box.appendChild(post_desc_box);
+
+            posts.appendChild(post_box)
 
         }
     })
