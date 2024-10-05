@@ -35,6 +35,7 @@ const loadData = function(){
             post_anchor = document.createElement('a');
             post_anchor.href = post['link']
             post_anchor.innerText = post['title'];
+            post_anchor.target = '_blank';
             post_anchor_box.appendChild(post_anchor);
 
             post_desc_box = document.createElement('div');
