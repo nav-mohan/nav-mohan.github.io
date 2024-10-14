@@ -40,6 +40,12 @@
             "desc":"A MacOS terminal app for encoding input audio as MP3 or AAC stream to an IceCast server"
         },
 
+        {
+            "title": "Game of Life",
+            "vid":"gol.webm",
+            "link":"https://nav-mohan.github.io/game-of-life/",
+            "desc":"An interactive web-interface for the classic Conway's Game of Life"
+        },
 
         {
             "title": "MacCapster",
