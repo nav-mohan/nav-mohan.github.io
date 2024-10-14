@@ -26,8 +26,18 @@ const loadData = function(){
             
             post_img_box = document.createElement('div');
             post_img_box.classList.add("post-img");
-            post_img = document.createElement('img');
-            post_img.src = post['img'];
+            if(post['img'] == undefined)
+            {
+                post_img = document.createElement('video');
+                post_img.src = post['vid'];
+                post_img.autoplay = true;
+                post_img.loop = true;
+            }
+            else 
+            {
+                post_img = document.createElement('img');
+                post_img.src = post['img'];
+            }
             post_img_box.appendChild(post_img);
 
             post_anchor_box = document.createElement('div');
