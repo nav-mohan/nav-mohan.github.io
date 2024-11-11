@@ -134,64 +134,62 @@ body{
 .post:hover>.post-img{
     opacity: 0.5;
 }
+#intro>#my-name>#speaker-icon{
+    width: 1.5em;
+    height: 1.5em;
+    padding: 5px;
+}
 
 @media only screen and (min-width: 600px) {
     #about-me{width: 90vw;}
-    .post {
+    .post 
+    {
         width: 90vw;
         height: 90vw;
     }
-    #intro>#my-name>#speaker-icon{
-        width: 3vw;
-        height: 3vw;
-    }
 }
 @media only screen and (max-width: 900px) {
-    .post {
+    .post 
+    {
         width: 80vw;
         height: 80vw;
     }
-    #intro>#my-name>#speaker-icon{
-        width: 4vw;
-        height: 4vw;
-    }
 }
 @media only screen and (min-width: 1200px) {
-    #about-me{width: 70vw;}
-    .post {
+    #about-me{width: 60vw;}
+    .post 
+    {
         width: 70vw;
         height: 70vw;
-    }
-    #intro>#my-name>#speaker-icon{
-        width: 3vw;
-        height: 3vw;
     }
 }
 
 @media only screen and (min-width: 1500px) {
-    #about-me{width: 50vw;}
-    .post {
+    #about-me{width: 40vw;}
+    .post 
+    {
         width: 50vw;
         height: 50vw;
     }
-    #intro>#my-name>#speaker-icon{
-        width: 2vw;
-        height: 2vw;
-    }
 }
 
-#outro{
+#links{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
-    max-width: 10vw;
-    max-height: 10vw;
-    /* border: 2px solid rebeccapurple; */
+    margin: 5px 0 5px 0;
 }
-#outro>a>img{
-    width: 50px;
-    max-width: 10vw;
-    /* overflow: auto; */
-
+#links>a{
+    text-decoration: none;
+}
+#links>a>img{
+    width: 2em;
+    margin: 0 5px 0 5px;
+    opacity: 0.6;
+    background-color: white;
+}
+#links>a>img:hover{
+    opacity: 1;
+    transition: 0.6s;
 }
