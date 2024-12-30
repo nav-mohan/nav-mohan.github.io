@@ -37,7 +37,7 @@
             "title": "MacIceCast",
             "img":"macos-terminal-1.png",
             "link":"https://github.com/nav-mohan/MacIcecast",
-            "desc":"A MacOS terminal app for encoding input audio as MP3 or AAC stream to an IceCast server"
+            "desc":"A MacOS daemon for encoding input audio as MP3 or AAC stream to an IceCast server"
         },
 
         {
@@ -51,14 +51,14 @@
             "title": "MacCapster",
             "img":"macos-terminal-2.png",
             "link":"https://github.com/nav-mohan/maccapster",
-            "desc":"A MacOS terminal app for recieving real-time alerts. Compliant with Common Alerting Protocol (Canadian Profile). "
+            "desc":"A MacOS daemon for recieving real-time alerts. Compliant with Common Alerting Protocol (Canadian Profile). "
         },
 
         {
             "title": "ZettaListener",
             "img":"terminal.png",
             "link":"https://github.com/nav-mohan/ZettaListener",
-            "desc":"A Debian terminal app for recieving real-time updates from RCS Zetta with persistent storage and web-server"
+            "desc":"A Debian daemon for recieving real-time updates from RCS Zetta with persistent storage and web-server"
         },
 
         {
