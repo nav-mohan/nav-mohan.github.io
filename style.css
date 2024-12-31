@@ -102,8 +102,12 @@ body{
     /* border: 1px solid red; */
 }
 .post-img>img{
-    max-width: 100%;
-    max-height: 100%;
+    width: 90%;
+    height: 90%;
+}
+.post-img>video{
+    width: 90%;
+    height: 90%;
 }
 
 .post-desc{
@@ -144,23 +148,23 @@ body{
     #about-me{width: 90vw;}
     .post 
     {
-        width: 90vw;
-        height: 90vw;
-    }
-}
-@media only screen and (max-width: 900px) {
-    .post 
-    {
         width: 80vw;
         height: 80vw;
+    }
+}
+@media only screen and (min-width: 900px) {
+    .post 
+    {
+        width: 50vw;
+        height: 50vw;
     }
 }
 @media only screen and (min-width: 1200px) {
     #about-me{width: 60vw;}
     .post 
     {
-        width: 70vw;
-        height: 70vw;
+        width: 50vw;
+        height: 50vw;
     }
 }
 
@@ -168,8 +172,17 @@ body{
     #about-me{width: 40vw;}
     .post 
     {
-        width: 50vw;
-        height: 50vw;
+        width: 40vw;
+        height: 40vw;
+    }
+}
+
+@media only screen and (min-width: 1620px) {
+    #about-me{width: 40vw;}
+    .post 
+    {
+        width: 30vw;
+        height: 30vw;
     }
 }
 
