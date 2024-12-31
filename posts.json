@@ -15,6 +15,12 @@
         }
         ,
         {
+            "title": "ZettaListener",
+            "img":"terminal.png",
+            "link":"https://github.com/nav-mohan/ZettaListener",
+            "desc":"A Debian daemon for recieving real-time updates from RCS Zetta with persistent storage and web-server"
+        },
+        {
             "title":"A Preliminary Analysis of Toronto's COVID cases",
             "img":"toronto-covid.png",
             "link":"https://nav-mohan.github.io/TorontoCovid_PrelimAnalysis/",
@@ -35,7 +41,7 @@
 
         {
             "title": "MacIceCast",
-            "img":"macos-terminal-1.png",
+            "img":"macicecast.png",
             "link":"https://github.com/nav-mohan/MacIcecast",
             "desc":"A MacOS daemon for encoding input audio as MP3 or AAC stream to an IceCast server"
         },
@@ -49,16 +55,9 @@
 
         {
             "title": "MacCapster",
-            "img":"macos-terminal-2.png",
+            "img":"maccapster.png",
             "link":"https://github.com/nav-mohan/maccapster",
             "desc":"A MacOS daemon for recieving real-time alerts. Compliant with Common Alerting Protocol (Canadian Profile). "
-        },
-
-        {
-            "title": "ZettaListener",
-            "img":"terminal.png",
-            "link":"https://github.com/nav-mohan/ZettaListener",
-            "desc":"A Debian daemon for recieving real-time updates from RCS Zetta with persistent storage and web-server"
         },
 
         {
