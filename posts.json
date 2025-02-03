@@ -27,6 +27,12 @@
             "desc":"A draft for Canadian Association of Journalists on COVID prevalence among minority groups"
         },
         {
+            "title":"Monte Carlo approximation of π",
+            "vid":"montecarlo.webm",
+            "link":"https://nav-mohan.github.io/montecarlo_compute_pi/",
+            "desc":"Estimating the value of π using Monte-Carlo Simulations"
+        },
+        {
             "title":"A Data-Dig of London's Music Scene",
             "img":"london-spotify.jpg",
             "link":"https://nav-mohan.github.io/London-Spotify/",
