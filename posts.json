@@ -15,6 +15,12 @@
         }
         ,
         {
+            "title":"Flocking Behavior",
+            "vid":"flocking.webm",
+            "link":"https://nav-mohan.github.io/flocking_simulation//",
+            "desc":"An interactive tool to visualize emergent behavior of flocking"
+        },
+        {
             "title": "ZettaListener",
             "img":"terminal.png",
             "link":"https://github.com/nav-mohan/ZettaListener",
