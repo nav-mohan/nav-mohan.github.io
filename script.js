@@ -6,7 +6,8 @@ const prepareAudio = function(){
         audioBox.play();
     })
 }
-
+window.addEventListener('load',prepareAudio);
+/**
 
 posts = document.getElementById("posts");
 const loadData = function(){
@@ -63,4 +64,4 @@ const loadData = function(){
 }
 
 window.addEventListener('load',loadData);
-window.addEventListener('load',prepareAudio);
+ */
