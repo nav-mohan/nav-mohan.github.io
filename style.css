@@ -31,6 +31,9 @@ body {
     margin: 20px auto;
 }
 
+#links a {
+	text-decoration: none; /* remove underline */
+}
 #links a img {
     width: 32px;
     height: 32px;
